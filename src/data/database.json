@@ -1,0 +1,98 @@
+{
+  "Users": [
+    {
+      "user_id": 1,
+      "username": "lamdtvd",
+      "password": "12345678",
+      "email": "john@example.com",
+      "phone_number": "123-456-7890",
+      "address": "123 Main St, City, Country",
+      "role": "patient",
+      "health_insurance": "ABC12345",
+      "emergency_contact": "Jane Doe, 123-456-7890"
+    }
+  ],
+  "Doctors": [
+    {
+      "doctor_id": 1,
+      "user_id": 1,
+      "specialty": "Cardiology",
+      "years_of_experience": 10,
+      "certifications": "Certified Cardiologist"
+    }
+  ],
+  "Appointments": [
+    {
+      "appointment_id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "appointment_date": "2023-10-15",
+      "status": "scheduled"
+    }
+  ],
+  "Medications": [
+    {
+      "medication_id": 1,
+      "name": "Aspirin",
+      "description": "Pain reliever and fever reducer",
+      "dosage": "500mg",
+      "side_effects": "Nausea, dizziness",
+      "price": 9.99
+    }
+  ],
+  "Orders": [
+    {
+      "order_id": 1,
+      "patient_id": 1,
+      "medication_id": 1,
+      "order_date": "2023-10-16",
+      "quantity": 2,
+      "total_amount": 19.98
+    }
+  ],
+  "Prescriptions": [
+    {
+      "prescription_id": 1,
+      "appointment_id": 1,
+      "medication_id": 1,
+      "dosage": "500mg twice a day",
+      "instructions": "Take with food"
+    }
+  ],
+  "Payments": [
+    {
+      "payment_id": 1,
+      "appointment_id": 1,
+      "payment_date": "2023-10-17",
+      "amount": 150.00,
+      "payment_method": "credit_card"
+    }
+  ],
+  "Insurance": [
+    {
+      "insurance_id": 1,
+      "provider_name": "HealthCare Inc.",
+      "policy_number": "POL123456",
+      "coverage_amount": 5000.00,
+      "patient_id": 1
+    }
+  ],
+  "HealthRecords": [
+    {
+      "record_id": 1,
+      "patient_id": 1,
+      "doctor_id": 1,
+      "diagnosis": "Hypertension",
+      "treatment": "Lifestyle changes, medication",
+      "record_date": "2023-10-15"
+    }
+  ],
+  "Feedback": [
+    {
+      "feedback_id": 1,
+      "user_id": 1,
+      "feedback_text": "Excellent service and care",
+      "rating": 5
+    }
+  ]
+}
